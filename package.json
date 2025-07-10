@@ -1,0 +1,24 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "description": "A backend email-sending service in JavaScript that includes:\r - Retry logic with exponential backoff\r - Fallback between two mock providers\r - Rate limiting\r - Idempotency support\r - Status tracking\r - Clean architecture with SOLID principles",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathameshBR/email-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/prathameshBR/email-service/issues"
+  },
+  "homepage": "https://github.com/prathameshBR/email-service#readme"
+}
