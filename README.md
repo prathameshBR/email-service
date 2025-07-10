@@ -29,4 +29,35 @@ A backend email-sending service in JavaScript that includes:
 
 ```bash
 npm install
-node index.js
+node src/index.js
+
+
+##  API Endpoint....
+**POST** `/send-email`
+
+### Request Body:
+```json
+{
+  "to": "test@example.com",
+  "subject": "Hello",
+  "body": "This is a test email"
+}
+
+## Sample Response:
+
+{
+  "status": "sent",
+  "provider": "Provider 1"
+}
+
+
+## Duplicate Request Response:
+
+{
+  "status": "duplicate",
+  "message": "Email already sent"
+}
+
+
+
+
